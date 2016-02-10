@@ -1,2 +1,2 @@
 # herewego
-I don't know github. yet. here we go.
+basic cassandra clustering examples. more to come.
