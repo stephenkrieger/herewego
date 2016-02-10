@@ -1,2 +1,2 @@
 # herewego
-I don't know github. Yet. Here we go.
+I don't know github. yet. here we go.
