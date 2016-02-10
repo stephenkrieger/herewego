@@ -25,8 +25,8 @@ CREATE TABLE Projects_by_Account_Cluster (
 	);
 
 --Run these scripts to query the tables
-select * from projects_by_account 
-select * from projects_by_account_cluster 
+select * from projects_by_account; 
+select * from projects_by_account_cluster;
 
 --Run these scripts to import the 7 rows of data. Note, 'Example_Data.csv' must either be in the CQL Shell bin folder, or be reference explicitly
 copy projects_by_account  (account, project, office, revenue, consultant_count, project_lead, roles) from 'Example_Data.csv';
