@@ -40,9 +40,8 @@ list projects_by_account;
 get projects_by_account_cluster['BigRetailBank'];
 
 --UVA example
-copy projects_by_account_cluster_add  (account, project, office, revenue, consultant_count, project_lead, roles) from 'Example_Data.csv';
-list projects_by_account_cluster_add; --may need to reboot Cassandra-CLI for this
-
+CREATE TABLE Projects_by_Account_Exercise_Partition ( Account text, Project text, Office text, Revenue float, Consultant_Count int, Project_lead text, Roles map<text, text>,  PRIMARY KEY ((Account)) );
+CREATE TABLE Projects_by_Account_Exercise_Cluster ( Account text, Project text, Office text, Revenue float, Consultant_Count int, Project_lead text, Roles map<text, text>,  PRIMARY KEY ((Account), Office, Project_lead, Revenue) );
 
 --Example with extra clustering column - no upserts!: 
 CREATE TABLE Projects_by_Account_Cluster_Add (
