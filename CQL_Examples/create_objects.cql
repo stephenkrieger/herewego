@@ -33,10 +33,15 @@ copy projects_by_account  (account, project, office, revenue, consultant_count, 
 copy projects_by_account_cluster  (account, project, office, revenue, consultant_count, project_lead, roles) from 'Example_Data.csv';
 
 
+
 --Run these scripts in Cassandra-CLI to see examples of clustering, and how it impacts how Cassandra stores data
 use CQL_Clustering_Example;
 list projects_by_account;
 get projects_by_account_cluster['BigRetailBank'];
+
+--UVA example
+copy projects_by_account_cluster_add  (account, project, office, revenue, consultant_count, project_lead, roles) from 'Example_Data.csv';
+list projects_by_account_cluster_add; --may need to reboot Cassandra-CLI for this
 
 
 --Example with extra clustering column - no upserts!: 
