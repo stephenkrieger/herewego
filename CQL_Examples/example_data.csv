@@ -1,4 +1,4 @@
-Account,Project,Office,Revenue,Consultant_Count,Project_Lead
+Account,Project,Office,Revenue,Consultant_Count,Project_Lead,Roles
 ConsumerGoods,HDFS Batch Processing,Richmond,1000000,10,Pete Carr,"{'QA Lead': 'Samant', 'Project Manager': 'Mike Notorious'}"
 BigRetailBank,Spark Machine Learning,Richmond,2003000,23,Todd Homa,
 BigRetailBank,Hadoop Lake,Washington D.C.,990000.03,15,Cameron Dobbs,
