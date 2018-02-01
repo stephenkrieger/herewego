@@ -1,4 +1,3 @@
-Account,Project,Office,Revenue,Consultant_Count,Project_Lead,Roles
 ConsumerGoods,HDFS Batch Processing,Richmond,1000000,10,Pete Carr,"{'QA Lead': 'Samant', 'Project Manager': 'Mike Notorious'}"
 BigRetailBank,Spark Machine Learning,Richmond,2003000,23,Todd Homeowner,
 BigRetailBank,Hadoop Lake,Washington D.C.,990000.03,15,Bob Lamborghini,
@@ -6,3 +5,4 @@ WeLoveHealthCare,Kafka Messaging,Richmond,834124,4,Ben Hardly,
 AnotherBank,Spark Analytics,Charlotte,2000000,35,Ben Hardly,
 MediaCompany,Cassandra Implementation,Philadelphia,84000,4,Todd Homeowner,
 BigRetailBank,Storm Analytics,Richmond,1000000,13,Ben Hardly,"{'Data Engineer': 'Stephen Krieger', 'Business Analyst': 'Tyler Edelman'}"
+BigRetailBank,Spark Data Pipeline,Denver,34552,4,Kevin McQueen,{'Analyst': 'Nathan Tatum'}
